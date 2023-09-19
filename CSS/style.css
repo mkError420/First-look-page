@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+        width: 1200px;
+        margin: auto;
+        overflow: hidden;
+}
+
+header{
+    padding: 20px 0px;
+    box-shadow: 0px 5px 30px #2451a7a6;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+nav {
+    width: 80%;
+    float: left;
+}
+
+nav ul{list-style: none;text-align: right;padding: 0;margin: 0;}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 27px  32px;
+    color: #d53a0c;
+    font-weight: 900;
+    display: block;
+}
+/* banner section */
+
+.banner-section{
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.banner-section h1{
+    
+font-size: 52px;
+    
+color: #202dc9;
+text-transform: capitalize;
+}
+.banner-section h1 span{
+    
+    color: #239550;
+    text-transform: capitalize;
+}
+
+.banner-section p{
+      
+font-size: 29px;
+      
+color: #8f4040f0;
+      
+margin: -40px 5px 0px 0px;
+text-transform: capitalize;
+font-style: italic;
+
+   
+}
+
+/* padding: 0; */
+
+.main-image img{
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+/* feature section */
+.feature-section{
+    padding: 30px;
+}
+.column{
+    width: 50%;
+    float: left;
+}
+.feature{
+    padding: 31px;
+}
+
+.text-alaign{
+    text-align: right;
+}
+
+.feature h2{
+    font-size: 88px;
+    color: #4360bc;
+    text-transform: capitalize;
+}
+.feature h2 span{
+    font-size: 88px;
+    color: #bc434d;
+    
+}
+
+
+.feature p{
+
+font-size: 29px;
+
+color: #3e9ee2;
+
+margin: auto;
+
+text-transform: capitalize;
+
+font-style: italic;
+}
+/* Blog-section */
+
+.Blog-Section{
+    margin-bottom: 50px;
+
+}
+.colum{
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.blog{
+    padding: 20px;
+    border-radius: 31px;
+}
+.blog img {
+max-width: 100%;
+
+}
+.blog h2{
+
+font-size: 31px;
+
+color: #2623d0cc;
+}
+.blog p{
+
+text-transform: capitalize;
+
+font-size: 20px;
+}
+
+.red{
+    background-color: rgb(124, 105, 105);
+}
+
+.blue{
+    background-color:rgb(121, 121, 163) ;
+}
+
+.yellow{
+    background-color: rgb(165, 165, 110);
+}
+
+/* footer-section */
+
+.footer-section{
+  /* background-color: red; */
+  /* width: 100%; */
+  padding-top: -12px;
+  padding-bottom: 581px;
+}
+.footer-section footer{
+    background-color: rgb(98, 0, 255);
+}
+
+
+.footer{
+    background-color: #239550;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.last{
+    
+float: left;
+    
+overflow: hidden;
+    
+width: 20%;
+    
+background-color: aqua;
+    
+/* margin-right: 7px; */
+    
+box-sizing: border-box;
+    
+margin-bottom: 25px;
+    
+margin-right: 25px;
+    
+margin-left: 25px;
+}
+.last img{
+    
+width: 100%;
+    
+/* height: 50%; */
+    
+height: 300px;
+}
+.last:hover{
+    background-color: red;
+}
+
+.low{
+   
+margin-bottom: 100px;
+   
+/* background-color: beige; */
+}
+.contact{
+  
+/* width: 94px; */
+  
+padding: 25px;
+  
+background-color: black;
+}
+.communicate img{
+
+    width: 92px;
+    /* background-color: black; */
+}
